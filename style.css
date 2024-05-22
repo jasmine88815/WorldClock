@@ -1,5 +1,121 @@
+.topHalf {
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+}
+h3{
+    text-align:center;
+    font-size:50px;
+    margin:0;
+    
+}
+h3 .letterW {
+    color:aquamarine;
+    display:inline-block;
+    transform:rotate(20deg);
+}
+h3 .letterA {
+    color:blueviolet;
+    display:inline-block;
+    transform:rotate(40deg);
 
+}
+h3 .letterC {
+    color:rgb(177, 92, 12);
+    display:inline-block;
+    transform:rotate(-35deg);
+}
+h3 .letterK {
+    color:greenyellow;
+    display:inline-block;
+    transform:rotate(10deg);
 
+}
+h3 .letterY {
+    color:blue;
+    display:inline-block;
+    transform:rotate(-40deg);
+}
+h1 {
+    text-align:center;
+    font-size: 80px;
+    margin:0;
+}
+
+ .letterR {
+    color:magenta;
+    display:inline-block;
+    transform:rotate(160deg);
+}
+.letterR:hover {
+    transform:rotate(360deg);
+}
+
+.letterW2 {
+    color:teal;
+    display:inline-block;
+
+}
+
+.letterL {
+    color:red;
+    display:inline-block;
+
+}
+.letterD {
+    color:orange;
+    display:inline-block;
+    margin-right: 30px;
+
+}
+.letterC2 {
+    color:yellowgreen;
+    display:inline-block;
+    margin-left: 30px;
+
+}
+.letterL2 {
+    color:blue;
+    display:inline-block;
+
+}
+.letterC3 {
+    color:orangered;
+    display:inline-block;
+
+}
+.letterK2 {
+    color:pink;
+    display:inline-block;
+    transform:rotate(20deg);
+}
+.letterK2:hover {
+    transform:rotate(360deg);
+}
+.city1 {
+    margin:0;
+    position:relative;
+
+    
+}
+.date {
+    color:fuchsia;
+}
+.time {
+    color:mediumslateblue;
+}
+.labelforCities {
+    font-weight:600;
+}
+h2 {
+    margin:0;
+}
+.bottomHalf {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
 footer {
     text-align:center;
+    
 }
+.reference {
+    font-size:8px;
+}
+
