@@ -104,11 +104,8 @@ label, select {
 select {
     padding:10px;
 }
-section {
-    position:relative;
-}
 .city1, .city2, .city3, .city4 {
-    background:transparent;
+    background:#E4E4E4;
     max-width:200px;
     max-height:100px;
     border:solid;
@@ -120,26 +117,30 @@ section {
   
 }
 .city1 {
-    margin:0 0 0 0;
-    left:855px;
+    position:relative;
+    margin:auto;
+    left:300px;
     top:20px;
     transform:rotate(20deg);
 }
 .city2 {
-   
-    left:250px;
+    position:relative;
+    margin:auto;
+    right:320px;
     bottom:70px;
     transform:rotate(-20deg);
 }
 .city3 {
-    margin:0 0 0 0;
-    left:250px;
+    position:relative;
+    margin:auto;
+    right:320px;
     top:170px;
     transform:rotate(20deg);
 }
 .city4 {
-   
-    left:855px;
+    position:relative;
+    margin:auto;
+    left:300px;
     bottom:-80px;
     transform:rotate(-20deg);
 }
