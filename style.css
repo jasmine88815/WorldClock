@@ -177,4 +177,10 @@ footer {
     font-size:10px;
     margin:0 0;
 }
+.red-border {
+    border:10px solid red;
+}
+.red-border :not(h2):not(.date):not(.time) {
+    border:none;
+}
 
