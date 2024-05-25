@@ -43,7 +43,7 @@ function showSelectedCity(event) {
     citiesElement.innerHTML=`
     <h2>${cityName}</h2>
     <div>${cityTime.format("ddd, MMMM Do, YYYY")}</div>
-    <div>${cityTime.format("h:m:ss A")}</div>
+    <div>${cityTime.format("h:mm:ss A")}</div>
 
     <a href="/">Start Over</a>`
 };
