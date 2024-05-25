@@ -110,7 +110,7 @@ select {
     max-height:100px;
     border:solid;
     border-radius: 5px;
-    border-width: 2px;
+    border-width: 10px;
     font-family: "Shadows Into Light", cursive;
   font-weight: 400;
   font-style: normal;
@@ -122,20 +122,23 @@ select {
     left:300px;
     top:20px;
     transform:rotate(20deg);
+    border-color: yellow;
 }
 .city2 {
     position:relative;
     margin:auto;
     right:320px;
-    bottom:70px;
+    bottom:90px;
     transform:rotate(-20deg);
+    border-color: aqua;
 }
 .city3 {
     position:relative;
     margin:auto;
     right:320px;
-    top:170px;
+    top:190px;
     transform:rotate(20deg);
+    border-color:lightsalmon;
 }
 .city4 {
     position:relative;
@@ -143,6 +146,7 @@ select {
     left:300px;
     bottom:-80px;
     transform:rotate(-20deg);
+    border-color: mediumblue;
 }
 .date1, .date2, .date3, .date4 {
     color:fuchsia;
